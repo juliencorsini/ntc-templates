@@ -25,12 +25,12 @@ Start
   ^\s*Description:\s+${DESCRIPTION}
   ^\s*Bandwidth:\s+${BANDWIDTH}
   ^\s*Maximum\s+[Tt]ransmi\S+\s+[Uu]nit:\s+${MTU}
-  ^\s*The\sMaximum\s+Transmit\s+Unit\sis\s+${MTU}
+  ^\s*The\s+Maximum\s+Transmit\s+Unit\s+is\s+${MTU}
   ^\s*Maximum\s+frame\s+length:\s+${L2MTU}
   ^\s*Forbid\s+jumbo\s+frames\s+to\s+pass
-  ^\s*The\s[Mm]aximum\s+[Ff]rame\s+[Ll]ength\sis\s+${L2MTU}
+  ^\s*The\s+Maximum\s+Frame\s+Length\s+is\s+${L2MTU}
   ^\s*Internet\s+[Aa]ddress:\s+${IP_ADDRESS}\s+\([Pp]rimary\)
-  ^\s*Internet\s+[Aa]ddress\sis\s+${IP_ADDRESS}\s+[Pp]rimary
+  ^\s*Internet\s+[Aa]ddress\s+is\s+${IP_ADDRESS}\s+[Pp]rimary
   ^\s*Internet\s+[Aa]ddress:\s+${IP_ADDRESS}\s+\([Ss]ub\)
   ^\s*IP\s+[Pp]acket\s+[Ff]rame\s+[Tt]ype\s*:\s*[^,]+,\s+[Hh]ardware\s+[Aa]ddress:\s+${HW_ADDRESS}
   ^\s*IPv6\s+[Pp]acket\s+[Ff]rame\s+[Tt]ype\s*:\s*[^,]+,\s+[Hh]ardware\s+[Aa]ddress:\s+${HW_ADDRESS}
@@ -148,7 +148,7 @@ Start
   ^\s*Broadcast
   ^\s*Multicast
   ^\s*Unicast
-  ^\s*No\sconnector
+  ^\s*No\s+connector
   ^\s*M[Dd][Ii]\s+type
   ^\s*Port\s+priority
   ^\s*Current\s*system
@@ -178,7 +178,7 @@ Start
   ^\s+\d+\s+dribbles
   ^\s*Tunnel\s
   ^\s*GRE
-  ^\s*Checksumming\sof\sGRE
+  ^\s*Checksumming\s+of\s+GRE
   ^\s+-\s+ignored
   ^\s+(-|\d+)\s+frame
   ^\s+-\s+aborts
